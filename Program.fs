@@ -8,3 +8,4 @@ let mul2Plus3 = mul2 >> plus3
 
 printfn "Hello from F#"
 printfn "3 * 2 + 3 = %i" (mul2Plus3 3)
+System.Console.WriteLine("Hello, {0}!", "World")
